@@ -55,7 +55,7 @@ Cricktopia is an interactive cricket-themed player selection app where users can
 ## 👨‍💻 Author
 
 Developed by **Rakibul Hasan Roki**  
-📧 inbox.roki@gmail.com  
+📧 mail
 🌐 [LinkedIn Profile](#) _()_
 
 ---
