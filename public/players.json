@@ -1,0 +1,134 @@
+[
+  {
+    "id": "p001",
+    "name": "Joe Root",
+    "flag": "https://flagcdn.com/gb.svg",
+    "country": "England",
+    "role": "Batter",
+    "hand": ["Right-hand bat"],
+    "rating": 89,
+    "price": 950000,
+    "img": "https://i.ibb.co/zW3KRNX5/2c599920-ef7b-11ef-bfcc-df31b19992af.webp"
+  },
+  {
+    "id": "p002",
+    "name": "Babar Azam",
+    "flag": "https://flagcdn.com/pk.svg",
+    "country": "Pakistan",
+    "role": "Batter",
+    "hand": ["Right-hand bat"],
+    "rating": 91,
+    "price": 1100000,
+    "img": "https://i.ibb.co/JFxzPQVp/babar.jpg"
+  },
+  {
+    "id": "p003",
+    "name": "Shakib Al Hasan",
+    "flag": "https://flagpedia.net/data/flags/normal/bd.png",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "hand": ["Left-hand bat", "Left-arm orthodox"],
+    "rating": 92,
+    "price": 950000,
+    "img": "https://i.ibb.co/cXNRK23G/1736411449719-Shakib-Al-Hasan.webp"
+  },
+  {
+    "id": "p004",
+    "name": "Virat Kohli",
+    "flag": "https://flagcdn.com/in.svg",
+    "country": "India",
+    "role": "Batter",
+    "hand": ["Right-hand bat"],
+    "rating": 94,
+    "price": 1200000,
+    "img": "https://i.ibb.co/1Gp3nQT0/Virat-Kohli-1.webp"
+  },
+  {
+    "id": "p005",
+    "name": "Kane Williamson",
+    "flag": "https://flagcdn.com/nz.svg",
+    "country": "New Zealand",
+    "role": "Batter",
+    "hand": ["Right-hand bat"],
+    "rating": 87,
+    "price": 900000,
+    "img": "https://i.ibb.co/d0L5C10R/1739869380-Kane-Williamson.jpg"
+  },
+  {
+    "id": "p006",
+    "name": "Steve Smith",
+    "flag": "https://flagcdn.com/au.svg",
+    "country": "Australia",
+    "role": "Batter",
+    "hand": ["Right-hand bat"],
+    "rating": 85,
+    "price": 880000,
+    "img": "https://i.ibb.co/chrFqK3R/21e63a70-f359-11ef-9e61-71ee71f26eb1.jpg"
+  },
+  {
+    "id": "p007",
+    "name": "Litton Das",
+    "flag": "https://flagpedia.net/data/flags/normal/bd.png",
+    "country": "Bangladesh",
+    "role": "Batter",
+    "hand": ["Right-hand bat"],
+    "rating": 82,
+    "price": 800000,
+    "img": "https://i.ibb.co/8n2FjkBW/1710585854791.jpg"
+  },
+  {
+    "id": "p008",
+    "name": "Taskin Ahmed",
+    "flag": "https://flagpedia.net/data/flags/normal/bd.png",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "hand": ["Right-arm fast"],
+    "rating": 78,
+    "price": 750000,
+    "img": "https://i.ibb.co/4wgfJ4NV/252917.jpg"
+  },
+  {
+    "id": "p009",
+    "name": "Mehidy Hasan Miraz",
+    "flag": "https://flagpedia.net/data/flags/normal/bd.png",
+    "country": "Bangladesh",
+    "role": "All-rounder",
+    "hand": ["Right-hand bat", "Right-arm offbreak"],
+    "rating": 84,
+    "price": 820000,
+    "img": "https://i.ibb.co/LDBFWwvZ/Mehidy-Hasan-Miraz-3.jpg"
+  },
+  {
+    "id": "p010",
+    "name": "Najmul Hossain Shanto",
+    "flag": "https://flagpedia.net/data/flags/normal/bd.png",
+    "country": "Bangladesh",
+    "role": "Batter",
+    "hand": ["Left-hand bat"],
+    "rating": 80,
+    "price": 720000,
+    "img": "https://i.ibb.co/670XmRy6/107636664.jpg"
+  },
+  {
+    "id": "p011",
+    "name": "Mustafizur Rahman",
+    "flag": "https://flagpedia.net/data/flags/normal/bd.png",
+    "country": "Bangladesh",
+    "role": "Bowler",
+    "hand": ["Left-arm fast-medium"],
+    "rating": 77,
+    "price": 690000,
+    "img": "https://i.ibb.co/TMzBzyNh/Mustafizur-rahman-1747219242286-1747219242724.jpg"
+  },
+  {
+    "id": "p012",
+    "name": "Towhid Hridoy",
+    "flag": "https://flagpedia.net/data/flags/normal/bd.png",
+    "country": "Bangladesh",
+    "role": "Batter",
+    "hand": ["Right-hand bat"],
+    "rating": 75,
+    "price": 680000,
+    "img": "https://i.ibb.co/JFn2143v/202406041508161117660420jpg.jpg"
+  }
+]
