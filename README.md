@@ -6,7 +6,7 @@ Cricktopia is an interactive cricket-themed player selection app where users can
 
 ## 🚀 Live Preview
 
-> 🔗 [Live Demo]()
+> 🔗 [Live Demo](https://cricktopia.netlify.app/)
 
 ---
 
@@ -14,7 +14,8 @@ Cricktopia is an interactive cricket-themed player selection app where users can
 
 - **React.js** – Component-based UI building
 - **Tailwind CSS** – Utility-first styling framework
-- **DaisyUI** – Prebuilt Tailwind-based UI components for rapid development
+- **DaisyUI** – Prebuilt Tailwind-based UI components for rapid development.
+- **Toastify** - Popular react library for adding toast notification
 
 ---
 
