@@ -36,11 +36,13 @@ function App() {
       if (choosePlayer.length >= 6 && selectedCard.length >= 6) {
         return toast("You have exceeded the player selection limit!", {
           position: "top-center",
+          autoClose: 3000,
         });
       } else {
         if (coin <= 0) {
           return toast("Not enough coin!", {
             position: "top-center",
+            autoClose: 3000,
           });
         } else {
           const updateCoin = coin - selectCard.price;
@@ -54,6 +56,7 @@ function App() {
             `${selectCard.name} selected. ${selectCard.price} credits deducted from your balance.`,
             {
               position: "top-center",
+              autoClose: 3000,
             }
           );
         }
