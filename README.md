@@ -6,7 +6,7 @@ Cricktopia is an interactive cricket-themed player selection app where users can
 
 ## 🚀 Live Preview
 
-> 🔗 [Live Demo](https://cricktopia.netlify.app/)
+> 🔗 [Live Link](https://cricktopia.netlify.app/)
 
 ---
 
