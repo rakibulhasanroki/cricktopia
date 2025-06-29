@@ -1,7 +1,7 @@
 import logo from "../../assets/logo.png";
-import coin from "../../assets/dollar.png";
+import Coin from "../../assets/dollar.png";
 
-export default function Navbar() {
+export default function Navbar({ coin }) {
   return (
     <nav className="flex justify-between mt-12 ">
       <div className=" flex items-center">
@@ -70,7 +70,8 @@ export default function Navbar() {
             className="
         md:p-3 p-1 border border-gray-300 rounded-lg font-semibold inline-flex items-center gap-2 "
           >
-            0 coin <img src={coin} alt="" className=" " />
+            {coin} coin
+            <img src={Coin} alt="" className=" " />
           </p>
         </div>
       </div>

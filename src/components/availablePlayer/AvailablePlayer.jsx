@@ -5,11 +5,18 @@ export default function AvaiablePlayer({
   toggleSelected,
   isAvailable,
   isSelected,
+  selectedCard,
 }) {
   return (
-    <section className="flex justify-between items-center mt-12">
+    <section className="flex flex-col md:flex-row md:justify-between items-center  mt-12 gap-4">
       <div>
-        <h2 className="font-bold">Available Players</h2>
+        <h2 className="font-bold">
+          {isAvailable
+            ? "Avaialable Player"
+            : isSelected
+            ? `Selected Players (${selectedCard.length}/6)`
+            : ""}
+        </h2>
       </div>
       <div>
         <Button

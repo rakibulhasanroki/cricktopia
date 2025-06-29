@@ -3,23 +3,15 @@ import AvaiablePlayer from "../availablePlayer/AvailablePlayer";
 import Card from "../card/Card";
 import Selected from "../selected/Selected";
 
-export default function Main({ available }) {
+export default function Main({
+  available,
+  selectedCard,
+  choosePlayer,
+  choosePlayerButton,
+  removePlayer,
+}) {
   const [isAvailable, setAvailable] = useState(true);
   const [isSelected, setSelected] = useState(false);
-  const [selectedCard, setSelectedCard] = useState([]);
-  const [choosePlayer, setChoosePlayer] = useState([]);
-
-  const choosePlayerButton = (selectCard) => {
-    if (
-      choosePlayer.includes(selectCard.id) &&
-      selectedCard.includes(selectCard)
-    ) {
-      return;
-    } else {
-      setChoosePlayer([...choosePlayer, selectCard.id]);
-      setSelectedCard([...selectedCard, selectCard]);
-    }
-  };
 
   const toggleAvailable = () => {
     setAvailable(true);
@@ -30,7 +22,6 @@ export default function Main({ available }) {
     setAvailable(false);
     setSelected(true);
   };
-
   return (
     <main>
       <AvaiablePlayer
@@ -38,6 +29,7 @@ export default function Main({ available }) {
         isSelected={isSelected}
         toggleAvailable={toggleAvailable}
         toggleSelected={toggleSelected}
+        selectedCard={selectedCard}
       ></AvaiablePlayer>
       <section className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4  gap-5 ">
         {isAvailable &&
@@ -49,7 +41,15 @@ export default function Main({ available }) {
               choosePlayer={choosePlayer}
             ></Card>
           ))}
-        {<Selected selectedCard={selectedCard}></Selected>}
+      </section>
+      <section>
+        {isSelected && (
+          <Selected
+            selectedCard={selectedCard}
+            removePlayer={removePlayer}
+            toggleAvailable={toggleAvailable}
+          ></Selected>
+        )}
       </section>
     </main>
   );
